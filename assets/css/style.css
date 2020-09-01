@@ -1,0 +1,27 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.bg-primary {
+    background-color: rgb(24, 201, 156)!important;
+}
+
+@media screen and (max-width: 768px) {
+
+  div {
+    background-color: red;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+  
+}
