@@ -14,11 +14,37 @@ If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https:/
 
 If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
 
+## User Story
+
+Part of being a developer is putting yourself in the shoes of your audience and imagining their experience with the application you’re creating. 
+
+A user story, or persona, is a description of an application using natural, non-technical language. Written from the perspective of the application’s end user, they help developers organize their work by allowing them to understand an application’s context and who will be using it.
+
+## Criteria
+
+Acceptance criteria are the requirements that must be met to complete a user story. They define the boundaries of the user story and are used to confirm when a story is completed.
+
+These criteria can be thought of as instructions for how you should complete a homework assignment. As you plan how to build the application, use them to structure your pages and pseudocode your logic. As you’re working, look back at the list of acceptance criteria to make sure you’ve met all of them. An application is complete only when it meets all of these criteria.
+
+## Review
+
+In the real world, when a developer finishes working on an issue, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For the homework assignments, your TAs will serve as your reviewers.
+
+To submit your application for review, you are required to provide the following:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
 
 ## Table of Contents (Optional)
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
+* [Description](#description)
+* [User Story](#user_story)
+* [Criteria](#Criteria)
+* [Review](#review)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -56,7 +82,14 @@ The last section of a good README is a license. This lets other developers know 
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
+
+[![Website naereen.github.io](https://img.shields.io/website-up-down-green-red/https/naereen.github.io.svg)](https://naereen.github.io/)
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+![1](https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&theme=blue-green)
+
 
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
