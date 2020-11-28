@@ -25,6 +25,15 @@ Part of being a developer is putting yourself in the shoes of your audience and 
 
 A user story, or persona, is a description of an application using natural, non-technical language. Written from the perspective of the application’s end user, they help developers organize their work by allowing them to understand an application’s context and who will be using it.
 
+## Mock-up Demonstration of App Function
+
+![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](#)
+
 ## Criteria
 
 Acceptance criteria are the requirements that must be met to complete a user story. They define the boundaries of the user story and are used to confirm when a story is completed.
