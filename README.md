@@ -42,6 +42,16 @@ To submit your application for review, you are required to provide the following
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
+### Quiz to Myself:
+* Which browsers support HTML5?
+
+* Which two attributes should every <img> tag should have?
+
+* What's the difference between a class selector and an id selector?
+
+* Why is it preferable to use external style sheets instead of inline CSS?
+
+* What are the advantages of using Git?
 
 ## Table of Contents (Optional)
 
