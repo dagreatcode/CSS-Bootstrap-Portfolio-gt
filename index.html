@@ -15,15 +15,29 @@
     <!--Added Bootstrap-->
     <link
       rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
     <!--Added Relative Link-->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
-      <!--Added Navbar-->
+    <!--Added Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Vincent Kendrick</a>
       <button
@@ -43,7 +57,7 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Porfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -57,21 +71,23 @@
         <div class="card-body">
           <div class="container">
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-sm-12">
                 <div class="page-header">
-                  <h1>About Me</h1>
+                  <!-- Jumbotron element -->
+                  <div class="jumbotron"><h1>About Me</h1></div>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-sm-3">
                 <img
-                  src="./assets/Images/img1.png/"
+                  src="./assets/Images/img1.png"
                   class="img-thumbnail"
                   alt="..."
                 />
               </div>
-              <div class="col-sm-3">
+              <div><i class="fa fa-at" style="font-size: 24px"></i></div>
+              <div class="col-sm-8">
                 <div class="caption">
                   <p class="caption-text">
                     A Little About Me. Well i have been a creator forever.
@@ -86,7 +102,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-8">
+              <div class="col-sm-12">
                 <div class="caption">
                   <p class="caption-text">
                     I have a son with autism. Its alot but I know god would
@@ -106,17 +122,21 @@
           </div>
         </div>
       </div>
+      <button class="btn btn-primary btn-lg">Fancy Button</button>
     </main>
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="" async defer></script>
-    
   </body>
 
   <!--Added my footer-->
 
   <footer>
     <div class="card bg-dark text-white">
-      <img src="./assets/Images/ScreenShot2.png/" class="card-img" alt="..." />
+      <img src="./assets/Images/ScreenShot2.png" class="card-img" alt="..." />
       <div class="card-img-overlay">
         <h5 class="card-title">I'ma Go Harder</h5>
         <p class="card-text">
