@@ -1,8 +1,19 @@
-# JS-Portfolio-gt
+# CSS-Bootstrap-Portfolio-gt
+
+<!-- https://dagreatcode.github.io/CSS-Bootstrap-Portfolio-gt/ -->
+
+[![Website dagreatcode.github.io/CSS-Bootstrap-Portfolio-gt/](https://img.shields.io/website-up-down-green-red/https/dagreatcode.github.io/CSS-Bootstrap-Portfolio-gt/.svg)](https://dagreatcode.github.io/CSS-Bootstrap-Portfolio-gt/)
+
 
 [![GitHub followers](https://img.shields.io/github/followers/dagreatcode.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/dagreatcode?tab=followers)
 
-[![GitHub followers](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/)
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
+
+
+<!-- [![GitHub followers](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/) -->
 
 # Commits for 2020
 
@@ -59,12 +70,12 @@ The CSS framework we'll use in this course is Bootstrap. Bootstrap was one of th
 
 ## Mock-up Demonstration of App Function
 
-![Vincent Kendrick Commits](#)
-![Vincent Kendrick Commits](#)
-![Vincent Kendrick Commits](#)
-![Vincent Kendrick Commits](#)
-![Vincent Kendrick Commits](#)
-![Vincent Kendrick Commits](#)
+![Vincent Kendrick Commits](./assets/Images/Screen1.png)
+![Vincent Kendrick Commits](./assets/Images/Screen2.png)
+![Vincent Kendrick Commits](./assets/Images/Screen3.png)
+![Vincent Kendrick Commits](./assets/Images/Screen4.png)
+![Vincent Kendrick Commits](./assets/Images/Screen5.png)
+![Vincent Kendrick Commits](./assets/Images/Screen6.png)
 
 ## Criteria
 
@@ -227,6 +238,16 @@ The last section of a good README is a license. This lets other developers know 
 <!-- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) -->
 
 ![1](https://github-readme-stats.vercel.app/api/top-langs/?username=dagreatcode&theme=blue-green)
+
+<img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+
+https://www.linkedin.com/in/vincent-kendrick-baab171b2/
+
+</br>
+
+<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+
+https://github.com/dagreatcode
 
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
