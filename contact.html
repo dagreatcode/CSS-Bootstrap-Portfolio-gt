@@ -8,20 +8,38 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>About Me</title>
     <meta name="description" content="" />
+    <!--Added the meta "viewpoint"-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Added Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--Added Relative Link-->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!--Added Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Vincent Kendrick</a>
+      <a class="navbar-brand" href="index.html">Vincent Kendrick</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -39,7 +57,7 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Porfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -47,7 +65,34 @@
         </ul>
       </div>
     </nav>
+    <!-- Our rows function in containers (grid created). -->
+    <div class="container">
 
+      <!-- Our columns function in rows. -->
+      <div class="row">
+
+        <!-- Columns have 12 areas of width to work with. -->
+
+        <!-- One third of screen (4/12) -->
+        <div class="col-md-4">
+          <!-- This is column 1 of 3 -->
+        </div>
+
+        <!-- One third of screen (4/12) -->
+        <div class="col-md-4">
+          <!-- This is column 2 of 3 -->
+        </div>
+
+        <!-- One third of screen (4/12) -->
+        <div class="col-md-4">
+
+          <!-- This is column 3 of 3 -->
+        </div>
+
+        <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+      </div>
+
+    </div>
     <!--Added my form-->
     <form>
         <div class="card">
@@ -68,15 +113,59 @@
                                 <label for="exampleInputMessage">Message</label>
                                 <input type="messagel" class="form-control" id="exampleInputMessage1">
                             </div>
+                            <button class="btn btn-primary btn-lg">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </form>
+    <!-- Creates the Overall Grid -->
+    <div class="container">
 
+      <!-- First Row -->
+      <div class="row">
+
+        <!-- First (and only column) -->
+        <div class="col-md-12">
+          <h1>These are links to my Media, Projects, AND Resume.</h1>
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="row">
+
+        <!-- First of two columns -->
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/">
+            <img src="./assets/Images/linkedin.png" alt="Linked In">
+          </a>
+        </div>
+
+        <!-- Second of two columns -->
+        <div class="col-md-4">
+          <a href="https://github.com/dagreatcode">
+            <img src="./assets/Images/github.png" alt="">
+          </a>
+        </div>
+
+        <!-- Second of two columns -->
+        <div class="col-md-4">
+          <a href="https://docs.google.com/document/d/1Ptx5x2S5qKHgHC2DALhAK5AOjyW5RFyhRwSoGi3RDbM/edit?usp=sharing/">
+            <img src="./assets/Images/stackover2.png" alt="">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="" async defer></script>
-<!--Added my footer-->
+    <!--Added my footer-->
     <footer>
       <div class="card bg-dark text-white">
         <img src="./assets/Images/ScreenShot2.png" class="card-img" alt="..." />
