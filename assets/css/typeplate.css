@@ -10,7 +10,8 @@ License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
 */
 @font-face {
   font-family: "Ampersand";
-  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  src: local("Georgia"), local("Garamond"), local("Palatino"),
+    local("Book Antiqua");
   unicode-range: U+0026;
 }
 
@@ -20,7 +21,21 @@ License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
   unicode-range: U+270C;
 }
 
-.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+.typl8-tera,
+.typl8-giga,
+.typl8-mega,
+h1,
+.typl8-alpha,
+h2,
+.typl8-beta,
+h3,
+.typl8-gamma,
+h4,
+.typl8-delta,
+h5,
+.typl8-epsilon,
+.typl8-zeta,
+h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
@@ -62,27 +77,32 @@ body {
   margin-bottom: 3.0303rem;
 }
 
-.typl8-mega, h1 {
+.typl8-mega,
+h1 {
   font-size: 4em;
   margin-bottom: 2.42424rem;
 }
 
-.typl8-alpha, h2 {
+.typl8-alpha,
+h2 {
   font-size: 3.33333em;
   margin-bottom: 2.0202rem;
 }
 
-.typl8-beta, h3 {
+.typl8-beta,
+h3 {
   font-size: 2.66667em;
   margin-bottom: 1.61616rem;
 }
 
-.typl8-gamma, h4 {
+.typl8-gamma,
+h4 {
   font-size: 2em;
   margin-bottom: 1.21212rem;
 }
 
-.typl8-delta, h5 {
+.typl8-delta,
+h5 {
   font-size: 1.33333em;
   margin-bottom: 0.80808rem;
 }
@@ -92,7 +112,8 @@ body {
   margin-bottom: 0.70707rem;
 }
 
-.typl8-zeta, h6 {
+.typl8-zeta,
+h6 {
   font-size: 1em;
   margin-bottom: 0.60606rem;
 }
@@ -265,7 +286,8 @@ p + .typl8-drop-cap {
   padding: 1em;
 }
 
-.typl8-pull-quote:before, .typl8-pull-quote:after {
+.typl8-pull-quote:before,
+.typl8-pull-quote:after {
   height: 1em;
   opacity: 0.5;
   position: absolute;
@@ -274,13 +296,13 @@ p + .typl8-drop-cap {
 }
 
 .typl8-pull-quote:before {
-  content: '“';
+  content: "“";
   top: 0;
   left: 0;
 }
 
 .typl8-pull-quote:after {
-  content: '”';
+  content: "”";
   bottom: 0;
   right: 0;
 }

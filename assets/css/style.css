@@ -1,21 +1,3 @@
-* {}
-
-
-
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
-
-.bg-primary {
-    background-color: rgb(24, 201, 156)!important;
-}
-
-
-
-  
-
-
-
 /**
  First External CSS Stylesheet
  **/
@@ -27,41 +9,60 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-    background-image: url("../Images/ignasi_pattern_s.png/");
-  }
-  
-  header {
-    background: #333;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+  background-image: url("../Images/ignasi_pattern_s.png");
+}
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: black;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 24px;
-  }
+html {
+  /* Positioning */
+  position: relative;
 
-  /**
+  /* Box-model */
+  min-height: 100%;
+}
+
+main {
+  margin: 80px 0;
+}
+
+header {
+  background: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  /* line-height: 50px; */
+}
+
+/**
  * CSS Pseudo-Classes
  **/
 
@@ -76,7 +77,7 @@ a {
     over the preceding element.
 */
 a:hover {
-  background-color: red;
+  background-color: rgb(0, 255, 221);
 }
 
 /* Focus Pseudo Class
@@ -97,54 +98,58 @@ a:active {
   background-color: black;
 }
 
-  p {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 28px;
-    font-weight: bolder;
-    /* line-height: 50px; */
-  }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #main-content,
-  #sidebar {
-    width: 100%;
-  }
+main {
+  margin: 80px 0;
+}
 
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 
-  #sidebar {
-    margin-top: 40px;
-  }
+.bg-primary {
+  background-color: rgb(24, 201, 156) !important;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-content,
+#sidebar {
+  width: 100%;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#sidebar {
+  margin-top: 40px;
+}
 
 @media screen and (max-width: 768px) {
-
   div {
     background-color: red;
   }
-  
+
   .container {
     width: 100%;
     padding: 20px;
@@ -156,5 +161,4 @@ a:active {
   #sidebar {
     margin-top: 40px;
   }
-  
 }
