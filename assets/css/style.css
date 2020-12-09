@@ -146,9 +146,9 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  div {
-    background-color: red;
-  }
+  /* div {
+    background-color: white;
+  } */
 
   .container {
     width: 100%;
