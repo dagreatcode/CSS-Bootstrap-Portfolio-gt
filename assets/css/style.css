@@ -1,12 +1,16 @@
-/**
- First External CSS Stylesheet
- **/
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
 
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
 
 body {
   padding: 0;
@@ -17,14 +21,6 @@ body {
   color: #333;
   background: #efeee7;
   background-image: url("../Images/ignasi_pattern_s.png");
-}
-
-html {
-  /* Positioning */
-  position: relative;
-
-  /* Box-model */
-  min-height: 100%;
 }
 
 main {

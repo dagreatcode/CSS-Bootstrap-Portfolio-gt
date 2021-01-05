@@ -1,8 +1,12 @@
-// var name = nameInput.value;
-// var email = emailInput.value;
-// var message = messageInput.value;
-// var submitButtonElement = document.getElementById("submit");
+var content = ("#input-content"); 
+var email = ("#input-email");
+var message = ("#input-message");
 
-// console.log("Name:", name);
-// console.log("Email:", email);
-// console.log("Message", message);
+content = content.value;
+email = email.value;
+message = message.value;
+var submitButtonElement = document.getElementById("submit");
+
+console.log("Name:", content);
+console.log("Email:", email);
+console.log("Message", message);

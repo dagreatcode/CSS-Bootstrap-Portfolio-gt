@@ -12,10 +12,12 @@
 <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
 <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
+Needs Local Storage and MySql2 Sequelize, also run `​sequelize init:config &sequelize init:models` do not use nodemon 
+
 
 <!-- [![GitHub followers](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/) -->
 
-# Commits for 2020
+# Commits from 2020
 
 ![Vincent Kendrick Commits](./assets/Images/GitHubActivity.png)
 
